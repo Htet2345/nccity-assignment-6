@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "profile_url": "https://i.pravatar.cc/300?img=12",
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "phone": "+95 9123456789",
+      "password": "demo123",
+      "registrationDate": "2026-10-01T08:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "profile_url": "https://i.pravatar.cc/300?img=47",
+      "name": "Maya Chen",
+      "email": "maya@example.com",
+      "phone": "+95 9876543210",
+      "password": "maya123",
+      "registrationDate": "2026-09-28T10:00:00.000Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 2,
+      "image_url": "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1200&q=80",
+      "title": "A quiet corner of the city",
+      "body": "Found this little pocket of green on my morning walk. A good reminder that there is always somewhere nearby to slow down and reset.",
+      "createdAt": "2026-10-03T05:45:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+      "title": "What are you learning this week?",
+      "body": "I have been exploring component composition in React. Share the idea, tool, or skill that currently has your attention.",
+      "createdAt": "2026-10-04T11:20:00.000Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 1,
+      "body": "This looks incredibly peaceful. Thanks for sharing it!",
+      "createdAt": "2026-10-03T06:10:00.000Z"
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "userId": 2,
+      "body": "CSS grid layouts for me — there is always one more trick to learn.",
+      "createdAt": "2026-10-04T12:05:00.000Z"
+    }
+  ]
+}
